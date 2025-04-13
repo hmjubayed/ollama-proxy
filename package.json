@@ -10,7 +10,7 @@
   },
   "scripts": {
     "start": "node index.js",
-    "publish": "npm pack && npm -r publish --access public --no-git-checks"
+    "publish": "npm pack && npm -r publish --access public"
   },
   "excluded": [
     "node_modules",
