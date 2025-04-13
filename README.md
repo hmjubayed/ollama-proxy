@@ -12,7 +12,7 @@ Ollama Proxy is a lightweight proxy server built with Express.js. It allows you 
 To install Ollama Proxy globally, run the following command:
 
 ```bash
-npm install ollama-proxy
+npm install -g ollama-proxy
 ```
 
 ## Usage After Global Installation
