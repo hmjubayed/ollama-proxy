@@ -1,0 +1,35 @@
+{
+  "name": "ollama-proxy",
+  "version": "1.0.0",
+  "main": "index.js",
+  "bin": {
+    "ollama-proxy": "./index.js"
+  },
+  "config": {
+
+  },
+  "scripts": {
+    "start": "node index.js",
+    "publish": "npm pack && npm -r publish --access public --no-git-checks"
+  },
+  "excluded": [
+    "node_modules",
+    "node_modules/*",
+    "package-lock.json",
+    "docs"
+  ],
+  "files": [
+    "index.js",
+    "package.json",
+    "README.md"
+  ],
+  "keywords": ["ollama-proxy", "http-proxy-middleware"],
+  "author": "Jubayed Hossain",
+  "license": "MIT",
+  "description": "A lightweight proxy server built with Express.js for forwarding requests with ease.",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "http-proxy-middleware": "^3.0.5"
+  }
+}
