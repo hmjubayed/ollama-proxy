@@ -1,6 +1,6 @@
 {
   "name": "ollama-proxy",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "main": "index.js",
   "bin": {
     "ollama-proxy": "index.js"
@@ -10,9 +10,7 @@
   },
   "excluded": [
     "node_modules",
-    "node_modules/*",
     "package-lock.json",
-    "docs",
     ".git"
   ],
   "files": [
