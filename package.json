@@ -1,11 +1,9 @@
 {
   "name": "ollama-proxy",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "main": "index.js",
-  "bin": {
-    "ollama-proxy": "./index.js"
-  },
   "scripts": {
+    "start": "index.js",
     "publish": "npm pack && npm -r publish --access public"
   },
   "excluded": [
