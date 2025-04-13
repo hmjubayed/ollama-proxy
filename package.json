@@ -1,7 +1,7 @@
 {
   "name": "ollama-proxy",
-  "version": "2.0.2",
-  "main": "index.js",
+  "version": "2.0.4",
+  "main": "src/index.js",
   "scripts": {
     "start": "index.js",
     "publish": "npm pack && npm -r publish"
@@ -14,9 +14,7 @@
     ".git"
   ],
   "files": [
-    "index.js",
-    "package.json",
-    "README.md"
+    "src/index.js"
   ],
   "keywords": [
     "ollama-proxy"
