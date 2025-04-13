@@ -11,13 +11,6 @@ const OLLAMA_URL = process.env.OLLAMA_URL || 'http://localhost:11434';
 
 const app = express();
 
-// Middleware
-// app.use(cors());
-app.get('/', (req, res) => {
-  res.json({ status: 'ok' });
-});
-
-
 // Proxy setup
 app.use('/ollama',  cors(), createProxyMiddleware({
   target: OLLAMA_URL,

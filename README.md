@@ -5,7 +5,6 @@ Ollama Proxy is a lightweight proxy server built with Express.js. It allows you 
 ## Features
 - Proxy requests to other servers
 - CORS support
-- Easy to configure
 
 
 ## Global Installation
@@ -23,7 +22,3 @@ Once installed globally, you can run the proxy server using the following comman
 ```bash
 ollama-proxy
 ```
-
-## License
-
-This project is licensed under the ISC License.
