@@ -1,10 +1,10 @@
 {
   "name": "ollama-proxy",
-  "version": "2.0.0",
+  "version": "2.0.2",
   "main": "index.js",
   "scripts": {
     "start": "index.js",
-    "publish": "npm pack && npm -r publish --access public"
+    "publish": "npm pack && npm -r publish"
   },
   "excluded": [
     "node_modules",
@@ -25,8 +25,8 @@
   "license": "MIT",
   "description": "A lightweight proxy server built with Express.js for forwarding requests with ease.",
   "dependencies": {
-    "cors": "*",
-    "express": "*",
-    "http-proxy-middleware": "*"
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "http-proxy-middleware": "^3.0.5"
   }
 }
